@@ -2,7 +2,7 @@ const Pool = require('pg').Pool;
 const pdfCreate = require('./pdf');
 const db = new Pool({
     user: "postgres",
-    password: "246753981",
+    password: "",
     host: "localhost",
     port: 5432,
     database: "Test-task"
